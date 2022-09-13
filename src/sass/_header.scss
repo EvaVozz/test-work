@@ -1,0 +1,23 @@
+
+.header {
+	padding: 20px 0;
+	background-color: gray;
+}
+.header__cotainer {
+}
+.container {
+}
+
+ul{
+	display: flex;
+}
+li{
+	&:not(:last-child){
+		margin-right: 20px;
+	}
+}
+
+a{
+	color: red;
+	text-decoration: none;
+}
